@@ -61,6 +61,7 @@ class ScreenLogin extends StatelessWidget {
     switch (result.status) {
       case FacebookLoginStatus.loggedIn:
         final FacebookAccessToken accessToken = result.accessToken;
+        //TODO сохранить данные о влогинивании + открыть экран
         _showMessage('''
          Logged in!
          
@@ -82,6 +83,6 @@ class ScreenLogin extends StatelessWidget {
   }
 
   void _showMessage(String message) {
-    print('$message');
+    print(message);
   }
 }
