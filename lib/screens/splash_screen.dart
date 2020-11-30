@@ -1,9 +1,10 @@
+import 'package:cats_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
-class StartScreen extends StatelessWidget {
+class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    Widget widget = Scaffold(
       appBar: AppBar(
         title: Text(
           'Cats App',
@@ -18,5 +19,10 @@ class StartScreen extends StatelessWidget {
                 image: AssetImage('assets/image/1.jpg'), fit: BoxFit.cover)),
       ),
     );
+    Future.delayed(const Duration(seconds: 5), () {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => ScreenLogin()));
+    });
+    return widget;
   }
 }

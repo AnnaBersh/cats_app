@@ -1,4 +1,6 @@
-import 'package:cats_app/start_screen.dart';
+import 'package:cats_app/screens/base_screen.dart';
+import 'package:cats_app/screens/login_screen.dart';
+import 'package:cats_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Cats App',
-      home: StartScreen(),
+      home:SplashScreen()
+          //BaseScreen()
+          //ScreenLogin()
+          
     );
   }
 }
