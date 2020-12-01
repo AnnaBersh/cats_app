@@ -19,10 +19,10 @@ class SplashScreen extends StatelessWidget {
                 image: AssetImage('assets/image/1.jpg'), fit: BoxFit.cover)),
       ),
     );
-    Future.delayed(const Duration(seconds: 5), () {
-      Navigator.push(
-          context, MaterialPageRoute(builder: (context) => ScreenLogin()));
-    });
+    // Future.delayed(const Duration(seconds: 5), () {
+    //   Navigator.push(
+    //       context, MaterialPageRoute(builder: (context) => ScreenLogin()));
+    // });
     return widget;
   }
 }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "908961717693",
+    "firebase_url": "https://cats-app-2b383.firebaseio.com",
+    "project_id": "cats-app-2b383",
+    "storage_bucket": "cats-app-2b383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908961717693:android:50cba6dd290abb2825c6d4",
+        "android_client_info": {
+          "package_name": "com.example.cats_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908961717693-k9jp6p9bg8qe43skd1jfincpnkvp2g16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLnQd7kZ9h6-6wQudSgzn2_sME4ZYsp9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908961717693-k9jp6p9bg8qe43skd1jfincpnkvp2g16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
